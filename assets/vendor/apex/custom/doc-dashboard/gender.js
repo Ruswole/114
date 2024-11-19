@@ -3,8 +3,8 @@ var options = {
     width: 250,
     type: "donut",
   },
-  labels: ["Male", "Female", "Kids"],
-  series: [20, 45, 65],
+  labels: ["Male", "Female"],
+  series: [70, 30],
   legend: {
     position: "bottom",
   },

@@ -1,5 +1,5 @@
 var options = {
-  series: [40, 70],
+  series: [70, 40],
   chart: {
     height: 240,
     type: "radialBar",
@@ -16,7 +16,7 @@ var options = {
         },
         value: {
           fontSize: "16px",
-          color: 'white',
+          color: "white",
         },
         total: {
           show: true,
@@ -29,8 +29,8 @@ var options = {
       },
     },
   },
-  labels: ["Heart", "Kidney"],
-  colors: ["#116aef", "#ff3939",],
+  labels: ["Male", "Female"],
+  colors: ["#116aef", "#ff3939"],
 };
 
 var chart = new ApexCharts(document.querySelector("#surgeries"), options);
